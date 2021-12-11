@@ -1,0 +1,418 @@
+.bläkki {
+    background-color: black;
+}
+
+.content {
+    max-width: 1060px;
+    margin: auto;
+}
+
+@media screen and (max-width: 320px) {
+    .content {
+        float: none;
+        width: 100%;
+    }
+}
+
+/* header alku */
+.header {
+    /* padding: 120px; */
+    text-align: center;
+    background: black;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.header h1 {
+    font-size: 40px;
+}
+
+/* header loppu */
+
+
+
+/*navigointipalkki alku*/
+.navbar {
+    overflow: hidden;
+    background-color: lightgray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    width: 20%;
+    text-decoration: none;
+    border-right: 2px solid #bbb;
+}
+
+.navbar .contactlink {
+    color: white;
+    background-color: red;
+    border-right: none;
+}
+
+@media screen and (max-width: 320px) {
+    .navbar a {
+        float: none;
+        width: 100%;
+    }
+}
+
+/*navigointipalkki loppu*/
+
+
+
+
+* {
+    box-sizing: border-box;
+}
+
+
+
+
+/* eka alku */
+.eka {
+    min-height: 600px;
+    /* background-color: black; */
+}
+
+
+.column1 {
+    float: left;
+    width: 50%;
+    height: 100%;
+    padding-top: 5%;
+    background-color: white;
+    min-height: 540.25px;
+}
+
+.logo {
+    /* opacity: 30%; */
+    fill: cyan;
+}
+
+.column2 {
+    float: left;
+    width: 50%;
+    height: 100%;
+    padding-top: 5%;
+    color: white;
+    /* background-color: white; */
+    min-height: 540.25px;
+}
+
+/* .column:after {
+    content: "";
+    display: table;
+    clear: both;
+} */
+
+@media screen and (max-width: 320px) {
+    .column {
+        width: 100%;
+    }
+}
+
+/* eka loppu */
+
+
+
+
+/* about us alku */
+.about {
+    display: grid;
+    grid-auto-flow: row;
+    margin: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    /* min-height: 600px; */
+    padding-top: 3%;
+    padding-bottom: 1%;
+}
+
+.photos_container {
+    width: 390px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 0px;
+    padding-bottom: 13%;
+    padding-top: 3%;
+    font-size: 18px
+}
+
+.name {
+    position: relative;
+    top: 50%;
+    line-height: 0px;
+}
+
+.photo_container {
+    line-height: 0;
+    width: 195px;
+    height: 195px;
+    cursor: pointer;
+}
+
+.photo_container:nth-child(1) {
+    background-color: rgb(197, 84, 47);
+}
+
+.photo_container:nth-child(2) {
+    background-color: rgb(202, 7, 176);
+}
+
+.photo_container:nth-child(3) {
+    background-color: rgb(29, 52, 182);
+}
+
+.photo_container:nth-child(4) {
+    background-color: rgb(125, 41, 151);
+}
+
+.photo {
+    height: 195px;
+    width: 195px;
+    object-fit: cover;
+    opacity: 30%;
+}
+
+.photo_container:hover>.photo {
+    opacity: 100%;
+}
+
+.photo_container:hover>.name {
+    visibility: hidden;
+}
+
+@media only screen and (max-width: 320px) {
+    .photos_container {
+        width: 195px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 20px;
+    }
+}
+
+/* about us loppu */
+
+
+
+
+/* Design thinking alku */
+.toka {
+
+    display: grid;
+    grid-auto-flow: row;
+    margin: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 27px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    /* min-height: 600px; */
+    padding-top: 3%;
+    padding-bottom: 10%;
+}
+
+.box_container {
+    width: 300px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 40px;
+    padding-bottom: 40px;
+    padding-top: 3%;
+    font-size: 18px
+}
+
+.teksti {
+    position: relative;
+    top: 35%;
+    line-height: 20px;
+}
+
+.teksti2 {
+    position: relative;
+    top: 50%;
+    padding-right: 55%;
+}
+
+.box {
+    line-height: 0;
+    width: 130px;
+    height: 130px;
+    cursor: pointer;
+}
+
+.box:nth-child(1) {
+    background-color: rgb(197, 84, 47);
+}
+
+.box:nth-child(2) {
+    background-color: rgb(202, 7, 176);
+}
+
+.box:nth-child(3) {
+    background-color: rgb(29, 52, 182);
+}
+
+.box:nth-child(4) {
+    background-color: rgb(125, 41, 151);
+}
+
+.box2 {
+    background-color: red;
+    font-size: 18px;
+    width: 300px;
+    height: 65px;
+    line-height: 0;
+    cursor: pointer;
+    margin: auto;
+    display: grid;
+}
+
+@media only screen and (max-width: 320px) {
+    .box_container {
+        width: 200px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 20px;
+    }
+}
+
+/* Design thinking loppu */
+
+
+
+
+/* kolmas alku */
+.kolmas {
+
+    background-color: lightgray;
+    min-height: 800px;
+}
+
+/* kolmas loppu  */
+
+
+
+
+/* iframe alku */
+.iframe {
+    background-color: black;
+    min-height: 625px;
+    padding-left: 5%;
+}
+
+.iframe_container {
+    position: relative;
+    width: 95%;
+    padding-bottom: 56.25%;
+    height: 0;
+}
+
+.iframe_container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* iframe loppu */
+
+
+
+
+/*kontaktitiedot alku*/
+.contact {
+    background-color: red;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 2%;
+    padding-bottom: 10%;
+    font-size: large;
+    text-align: center;
+}
+
+input[type=submit] {
+    padding: 12px 20px;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px 20px;
+    border: 1px solid white;
+    background-color: red;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    color: white;
+}
+
+.font {
+    font-size: 45px;
+}
+
+.contactform {
+    width: 33%;
+    margin: auto;
+}
+
+@media screen and (max-width: 320px) {
+    .input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+
+    .contactform {
+        width: 90%;
+        margin: auto;
+    }
+}
+
+.button {
+    border-radius: 50%;
+    background-color: red;
+    border-color: white;
+    height: 60px;
+    width: 60px;
+    color: white;
+}
+
+.text {
+    padding-right: 85%;
+}
+
+/*kontaktitiedot loppu*/
+
+
+
+
+/* footer alku */
+.footer {
+    min-height: 800px;
+    text-align: center;
+    background-color: black;
+}
+
+.backround {
+    opacity: 30%;
+    max-width: 1060px;
+}
+
+/* footer loppu */
