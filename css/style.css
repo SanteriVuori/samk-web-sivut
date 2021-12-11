@@ -343,17 +343,20 @@
     background-color: red;
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding-top: 2%;
-    padding-bottom: 10%;
+    padding-top: 50px;
+    padding-bottom: 220px;
     font-size: large;
+}
+.font {
     text-align: center;
+    font-size: large;
 }
 
 input[type=submit] {
     padding: 12px 20px;
 }
 
-input[type=text], select, textarea {
+input{
     width: 100%;
     padding: 12px 20px;
     border: 1px solid white;
@@ -364,6 +367,7 @@ input[type=text], select, textarea {
     color: white;
 }
 
+
 .font {
     font-size: 45px;
 }
@@ -371,6 +375,7 @@ input[type=text], select, textarea {
 .contactform {
     width: 33%;
     margin: auto;
+    min-width: 400px;
 }
 
 @media screen and (max-width: 320px) {
@@ -393,9 +398,13 @@ input[type=text], select, textarea {
     width: 60px;
     color: white;
 }
+.button {
+    position: relative;
+    float: right;
+  }
 
-.text {
-    padding-right: 85%;
+input#pick1 {
+    width: 15px;
 }
 
 /*kontaktitiedot loppu*/
