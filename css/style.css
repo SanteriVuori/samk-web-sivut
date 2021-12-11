@@ -397,11 +397,9 @@ input{
     height: 60px;
     width: 60px;
     color: white;
-}
-.button {
     position: relative;
     float: right;
-  }
+}
 
 input#pick1 {
     width: 15px;
