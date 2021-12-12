@@ -538,15 +538,20 @@ input#pick1 {
     position: relative;
     margin-top: 400px;
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 55% auto;
 
 }
 .infotext {
     margin: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    font-size: 15px;
+    margin-left: 9px;
 }
 
 .infologo {
     margin: auto;
+    margin-top: 10px;
 }
 
 
@@ -555,7 +560,8 @@ input#pick1 {
     margin: auto;
     display: grid;
     grid-template-columns: 60% 40%;
-    padding-left: 110px;
+    padding-left: 20px;
+    margin-top: 25px;
 
 }
 
@@ -583,8 +589,8 @@ input#pick1 {
     font-size: 15px;
     color: black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: bold;
-    padding-right: 110px;
+    font-weight: bolder;
+    padding-right: 180px;
 }
 
 .textred_info {
@@ -599,8 +605,9 @@ input#pick1 {
 .logotext_info {
     color: black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding-left: 180px;
+    padding-left: 125px;
     font-size: 10px;
+    margin-top: -25px;
 
 }
 
