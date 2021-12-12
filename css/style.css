@@ -369,28 +369,31 @@
 }
 
 .columnnut {
-    width: 550px;
+    width: 540px;
     height: 260px;
-    padding-left: 250px;
+    padding-left: 220px;
     padding-top: 100px;
 }
+
 .textnut {
     font-size: 13px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
 .right1 {
     font-size: 13px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
 .points {
     font-size: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
 em {
     font-weight: bold;
     font-style: normal;
 }
-
 
 /* nutshell loppu  */
 
