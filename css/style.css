@@ -43,6 +43,7 @@
     margin: auto;
     display: grid;
 }
+
 .logoblack {
     width: 200px;
     height: 90px;
@@ -70,12 +71,13 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
 }
- .logotext {
-     color: black;
-     font-family: Verdana, Geneva, Tahoma, sans-serif;
-     padding-left: 48%;
-     font-size: 16px;
- }
+
+.logotext {
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 48%;
+    font-size: 16px;
+}
 
 
 /* header loppu */
@@ -351,14 +353,40 @@
 
 
 
-/* kolmas alku */
-.kolmas {
-
-    background-color: lightgray;
+/* nutshell alku */
+.nutshell {
+    background-image: url(pic7.jpg);
+    background-position: center;
+    background-size: cover;
     min-height: 800px;
 }
 
-/* kolmas loppu  */
+.headingnut {
+    text-align: center;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 80px;
+}
+
+.columnnut {
+    width: 550px;
+    height: 260px;
+    padding-left: 250px;
+    padding-top: 100px;
+}
+.textnut {
+    font-size: 13px;
+}
+.right1 {
+    font-size: 13px;
+    font-weight: bold;
+}
+.points {
+    font-size: 20px;
+}
+
+
+/* nutshell loppu  */
 
 
 
