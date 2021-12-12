@@ -17,20 +17,27 @@
 /* header alku */
 .header {
     min-height: 500px;
-    background-color: white;
+    background-image: url(pic5.jpg);
+    background-position-x: 0px;
+    background-position-y: -220px;
+    background-size: cover;
+
+
+
 }
 
 .logo_container {
     width: 390px;
     margin: auto;
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 60% 40%;
     padding-top: 3%;
+    padding-top: 15%;
 }
 
 .logored {
     background-color: red;
-    width: 200px;
+    width: 150px;
     height: 90px;
     line-height: 0;
     margin: auto;
@@ -48,17 +55,17 @@
 .textblack {
     text-align: center;
     margin: auto;
-    font-size: 35px;
+    font-size: 30px;
     color: black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
-    padding-right: 40px;
+    padding-right: 100px;
 }
 
 .textred {
     text-align: center;
     margin: auto;
-    font-size: 35px;
+    font-size: 30px;
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
@@ -66,8 +73,8 @@
  .logotext {
      color: black;
      font-family: Verdana, Geneva, Tahoma, sans-serif;
-     padding-left: 44%;
-     font-size: 20px;
+     padding-left: 48%;
+     font-size: 16px;
  }
 
 
@@ -125,6 +132,8 @@
 .eka {
     min-height: 600px;
     /* background-color: black; */
+    z-index: 1;
+
 }
 
 
