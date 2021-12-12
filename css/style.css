@@ -129,42 +129,82 @@
 
 /* eka alku */
 .eka {
-    min-height: 600px;
-    /* background-color: black; */
-    z-index: 1;
-
+    min-height: 1000px;
+    background-color: black;
+    position: relative;
 }
 
 
 .column1 {
-    float: left;
-    width: 50%;
-    height: 100%;
-    padding-top: 5%;
-    background-color: white;
-    min-height: 540.25px;
+
+    top: 150px;
+    position: absolute;
+    right: 510px;
+
 }
 
 .logo {
-    /* opacity: 30%; */
-    fill: cyan;
+    opacity: 30%;
+    filter: invert(100%);
+    width: 800px;
 }
 
 .column2 {
-    float: left;
-    width: 50%;
-    height: 100%;
-    padding-top: 5%;
+    float: right;
+    width: 330px;
+    height: 300px;
+    padding-top: 60px;
     color: white;
-    /* background-color: white; */
-    min-height: 540.25px;
+    position: absolute;
+    font-size: 13px;
+    left: 600px;
+    top: 290px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-/* .column:after {
-    content: "";
-    display: table;
-    clear: both;
-} */
+ul {
+    padding-left: 15px;
+}
+
+.firsthead {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    left: 515px;
+    top: 70px;
+}
+
+.secondhead {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    left: 290px;
+    top: 200px;
+}
+
+.design {
+    color: white;
+    font-size: 120px;
+    font-weight: bold;
+    line-height: 0;
+
+}
+
+.thinking {
+    color: red;
+    font-size: 75px;
+    font-weight: bold;
+    line-height: 0;
+    padding-left: 300px;
+}
+
+.dontlookhere {
+    width: 300px;
+    height: 1100px;
+    background-color: black;
+    position: absolute;
+    right: 1060px;
+}
 
 @media screen and (max-width: 320px) {
     .column {
@@ -355,7 +395,7 @@
     background-image: url(pic7.jpg);
     background-position: center;
     background-size: cover;
-    min-height: 800px;
+    min-height: 850px;
 }
 
 .headingnut {
@@ -502,7 +542,7 @@ input#pick1 {
     min-height: 950px;
     position: relative;
     margin: 0;
-    
+
 }
 
 .background {
@@ -541,6 +581,7 @@ input#pick1 {
     grid-template-columns: 55% auto;
 
 }
+
 .infotext {
     margin: auto;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
