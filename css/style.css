@@ -376,13 +376,19 @@
 }
 .textnut {
     font-size: 13px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .right1 {
     font-size: 13px;
-    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .points {
     font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+em {
+    font-weight: bold;
+    font-style: normal;
 }
 
 
