@@ -192,11 +192,13 @@
     min-height: 1000px;
     background-color: black;
     position: relative;
+    overflow: hidden;
 }
 
 @media screen and (max-width: 320px) {
     .eka {
         min-height: 980px;
+        overflow: hidden;
     }
 }
 
@@ -225,7 +227,7 @@
 
 @media screen and (max-width: 320px) {
     .logo {
-        margin-left: -520px;
+        margin-left: -330px;
     }
 }
 
@@ -313,21 +315,6 @@ ul {
     }
 }
 
-
-
-.dontlookhere {
-    width: 300px;
-    height: 1100px;
-    background-color: black;
-    position: absolute;
-    right: 1060px;
-}
-
-@media screen and (max-width: 320px) {
-    .dontlookhere {
-        display: none;
-    }
-}
 
 
 
