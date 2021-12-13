@@ -773,7 +773,7 @@ input#pick1 {
 
 .info_container {
     background-color: white;
-    width: 300px;
+    width: 550px;
     height: 150px;
     margin: auto;
     position: relative;
@@ -813,7 +813,7 @@ input#pick1 {
 
 .infologo {
     margin: auto;
-    margin-top: 10px;
+    margin-top: 0px;
 }
 
 @media screen and (max-width: 320px) {
