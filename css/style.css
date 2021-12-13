@@ -193,6 +193,11 @@
     background-color: black;
     position: relative;
 }
+@media screen and (max-width: 320px) {
+    .eka {
+        min-height: 980px;
+    }
+}
 
 
 .column1 {
@@ -200,7 +205,14 @@
     top: 150px;
     position: absolute;
     right: 510px;
-
+}
+@media screen and (max-width: 320px) {
+    .column1 {
+        position: relative;
+        top: 150px;
+        right: 300px;
+        max-width: 320px;
+    }
 }
 
 .logo {
@@ -222,6 +234,16 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+@media screen and (max-width: 320px) {
+    .column2 {
+        width: 90%;
+        max-width: 320px;
+        left: 20px;
+        top: 280px;
+        font-size: 18px;
+    }
+}
+
 ul {
     padding-left: 15px;
 }
@@ -233,6 +255,12 @@ ul {
     left: 515px;
     top: 70px;
 }
+@media screen and (max-width: 320px) {
+    .firsthead {
+        left: 45px;
+        top: 110px;
+    }
+}
 
 .secondhead {
     width: 150px;
@@ -241,13 +269,23 @@ ul {
     left: 290px;
     top: 200px;
 }
+@media screen and (max-width: 320px) {
+    .secondhead {
+        left: -225px;
+        top: 195px;
+    }
+}
 
 .design {
     color: white;
     font-size: 120px;
     font-weight: bold;
     line-height: 0;
-
+}
+@media screen and (max-width: 320px) {
+    .design {
+        font-size:80px;
+    }
 }
 
 .thinking {
@@ -257,6 +295,13 @@ ul {
     line-height: 0;
     padding-left: 300px;
 }
+@media screen and (max-width: 320px) {
+    .thinking {
+        font-size: 55px;
+    }
+}
+
+
 
 .dontlookhere {
     width: 300px;
@@ -265,13 +310,13 @@ ul {
     position: absolute;
     right: 1060px;
 }
-
 @media screen and (max-width: 320px) {
-    .thinking {
-        width: 100%;
-        padding-left: 0px;
+    .dontlookhere {
+        display: none;
     }
 }
+
+
 
 /* eka loppu */
 
@@ -316,11 +361,6 @@ ul {
         display: grid;
         grid-template-columns: auto auto;
         gap: 20px;
-
-
-
-
-
     }
 }
 
