@@ -292,6 +292,13 @@ ul {
     padding-bottom: 1%;
 }
 
+@media only screen and (max-width: 320px) {
+    .about {
+        display: inline;
+
+    }
+}
+
 .photos_container {
     width: 390px;
     margin: auto;
@@ -305,14 +312,18 @@ ul {
 
 @media only screen and (max-width: 320px) {
     .photos_container {
-
-        width: 320px;
         margin: auto;
         display: grid;
         grid-template-columns: auto auto;
         gap: 20px;
+        
+
+        
+
+
     }
 }
+
 
 .name {
     position: relative;
