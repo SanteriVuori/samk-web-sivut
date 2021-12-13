@@ -193,6 +193,7 @@
     background-color: black;
     position: relative;
 }
+
 @media screen and (max-width: 320px) {
     .eka {
         min-height: 980px;
@@ -206,6 +207,7 @@
     position: absolute;
     right: 510px;
 }
+
 @media screen and (max-width: 320px) {
     .column1 {
         position: relative;
@@ -219,6 +221,10 @@
     opacity: 30%;
     filter: invert(100%);
     width: 800px;
+}
+
+@media screen and (max-width: 320px) {
+    .logo {}
 }
 
 .column2 {
@@ -255,6 +261,7 @@ ul {
     left: 515px;
     top: 70px;
 }
+
 @media screen and (max-width: 320px) {
     .firsthead {
         left: 45px;
@@ -269,6 +276,7 @@ ul {
     left: 290px;
     top: 200px;
 }
+
 @media screen and (max-width: 320px) {
     .secondhead {
         left: -225px;
@@ -282,9 +290,10 @@ ul {
     font-weight: bold;
     line-height: 0;
 }
+
 @media screen and (max-width: 320px) {
     .design {
-        font-size:80px;
+        font-size: 80px;
     }
 }
 
@@ -295,6 +304,7 @@ ul {
     line-height: 0;
     padding-left: 300px;
 }
+
 @media screen and (max-width: 320px) {
     .thinking {
         font-size: 55px;
@@ -310,6 +320,7 @@ ul {
     position: absolute;
     right: 1060px;
 }
+
 @media screen and (max-width: 320px) {
     .dontlookhere {
         display: none;
@@ -711,7 +722,12 @@ input#pick1 {
     min-height: 950px;
     position: relative;
     margin: 0;
+}
 
+@media screen and (max-width: 320px) {
+    .footer {
+        min-height: 530px;
+    }
 }
 
 
@@ -731,6 +747,10 @@ input#pick1 {
 @media screen and (max-width: 320px) {
     .background {
         width: 100%;
+        background-size: cover;
+        background-position-y: -200px;
+        height: 530px;
+
     }
 }
 
@@ -742,24 +762,35 @@ input#pick1 {
     position: relative;
     top: 230px;
     line-height: 0;
+}
 
+@media screen and (max-width: 320px) {
+    .contacthead {
+        font-size: 40px;
+        top: 50px;
+    }
 }
 
 .info_container {
     background-color: white;
-    width: 550px;
+    width: 300px;
     height: 150px;
     margin: auto;
     position: relative;
     margin-top: 400px;
     display: grid;
     grid-template-columns: 55% auto;
-
 }
 
 @media screen and (max-width: 320px) {
     .info_container {
-        width: 90%;
+        width: 300px;
+        grid-template-columns: none;
+        margin-top: 150px;
+        height: 300px;
+        opacity: 70%;
+
+
     }
 }
 
@@ -774,6 +805,9 @@ input#pick1 {
 @media screen and (max-width: 320px) {
     .infotext {
         width: 50%;
+        margin-left: 50px;
+        margin-top: 20px;
+        padding-top: 20px;
     }
 }
 
@@ -784,7 +818,9 @@ input#pick1 {
 
 @media screen and (max-width: 320px) {
     .infologo {
-        width: 50%;
+        width: 100%;
+        left: 200px;
+        margin-left: -40px;
     }
 }
 
@@ -796,7 +832,15 @@ input#pick1 {
     grid-template-columns: 60% 40%;
     padding-left: 20px;
     margin-top: 25px;
+}
 
+@media screen and (max-width: 320px) {
+    .logo_container_info {
+        width: 200px;
+        margin-top: -70px;
+        margin-left: 80px;
+
+    }
 }
 
 .logored_info {
@@ -816,6 +860,14 @@ input#pick1 {
     display: grid;
 }
 
+@media screen and (max-width: 320px) {
+    .logoblack_info {
+        width: 50px;
+        display: inline;
+        margin-top: 90px;
+    }
+}
+
 
 .textblack_info {
     text-align: center;
@@ -825,6 +877,15 @@ input#pick1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bolder;
     padding-right: 180px;
+}
+
+@media screen and (max-width: 320px) {
+    .textblack_info {
+        width: 100px;
+        display: inline;
+        margin-top: 90px;
+        padding-right: 0;
+    }
 }
 
 .textred_info {
@@ -844,12 +905,31 @@ input#pick1 {
     margin-top: -25px;
 }
 
+@media screen and (max-width: 320px) {
+    .logotext_info {
+        padding-left: 0px;
+        width: 40%;
+        margin-top: -65px;
+        margin-left: 170px;
+    }
+}
+
 .source {
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding-left: 560px;
     padding-top: 10px;
     font-size: 12px;
+}
+
+@media screen and (max-width: 320px) {
+    .source {
+        padding-left: 0px;
+        width: 60%;
+        text-align: right;
+        margin-left: 110px;
+
+    }
 }
 
 
