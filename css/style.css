@@ -210,10 +210,10 @@
 
 @media screen and (max-width: 320px) {
     .column1 {
-        position: relative;
+        /* position: relative; */
         top: 150px;
-        right: 300px;
-        max-width: 320px;
+        max-width: 300px;
+        left: 30px;
     }
 }
 
@@ -224,7 +224,9 @@
 }
 
 @media screen and (max-width: 320px) {
-    .logo {}
+    .logo {
+        margin-left: -520px;
+    }
 }
 
 .column2 {
@@ -373,7 +375,7 @@ ul {
         grid-template-columns: auto auto;
         gap: 20px;
         width: 280px;
-    
+
     }
 }
 
@@ -384,12 +386,17 @@ ul {
     line-height: 0px;
 }
 
+@media only screen and (max-width: 320px) {
+    .name {}
+}
+
 .photo_container {
     line-height: 0;
     width: 195px;
     height: 195px;
     cursor: pointer;
 }
+
 @media only screen and (max-width: 320px) {
     .photo_container {
         width: 130px;
@@ -419,6 +426,7 @@ ul {
     object-fit: cover;
     opacity: 30%;
 }
+
 @media only screen and (max-width: 320px) {
     .photo {
         height: 130px;
