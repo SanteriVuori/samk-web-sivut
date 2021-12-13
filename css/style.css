@@ -7,7 +7,7 @@
     margin: auto;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 900px) {
     .content {
         float: none;
         width: 100%;
@@ -23,7 +23,7 @@
     background-size: 100%;
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 900px) {
     .header {
         min-height: 300px;
         background-size: 300%;
@@ -41,7 +41,7 @@
     padding-top: 15%;
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 900px) {
     .logo_container {
         width: 90%;
         grid-template-columns: 50% 50%;
@@ -58,7 +58,7 @@
     display: grid;
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 900px) {
     .logored {
         height: 60%;
         width: 90%;
@@ -74,7 +74,7 @@
     display: grid;
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 900px) {
     .logoblack {
         max-width: 100px;
         display: inline;
@@ -94,7 +94,7 @@
     padding-right: 100px;
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 900px) {
     .textblack {
         font-size: 25px;
 
@@ -110,7 +110,7 @@
     font-weight: bold;
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 900px) {
     .textred {
         font-size: 25px;
 
@@ -124,7 +124,7 @@
     font-size: 16px;
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 900px) {
     .logotext {
         display: block;
         padding-left: 140px;
@@ -152,7 +152,7 @@
     z-index: 100;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 900px) {
     .topnav {
         display: none;
     }
@@ -175,7 +175,7 @@
     border-right: none;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 900px) {
     .topnav a {
         float: none;
         width: 100%;
@@ -188,7 +188,7 @@
     visibility: hidden;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 900px) {
     .header a.icon {
         visibility: visible;
         display: block;
@@ -223,7 +223,7 @@
     overflow: hidden;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 900px) {
     .eka {
         min-height: 980px;
         overflow: hidden;
@@ -238,7 +238,7 @@
     right: 510px;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 900px) {
     .column1 {
         top: 150px;
         max-width: 300px;
@@ -252,7 +252,7 @@
     width: 800px;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 900px) {
     .logo {
         margin-left: -330px;
     }
@@ -271,7 +271,7 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 900px) {
     .column2 {
         width: 90%;
         max-width: 320px;
@@ -293,7 +293,7 @@ ul {
     top: 70px;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 900px) {
     .firsthead {
         left: 45px;
         top: 110px;
@@ -308,7 +308,7 @@ ul {
     top: 200px;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 900px) {
     .secondhead {
         left: -225px;
         top: 195px;
@@ -322,7 +322,7 @@ ul {
     line-height: 0;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 900px) {
     .design {
         font-size: 80px;
     }
@@ -336,7 +336,7 @@ ul {
     padding-left: 300px;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 900px) {
     .thinking {
         font-size: 55px;
     }
@@ -364,7 +364,7 @@ ul {
     padding-bottom: 1%;
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 900px) {
     .about {
         display: inline;
 
@@ -382,7 +382,7 @@ ul {
     font-size: 18px
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 900px) {
     .photos_container {
         margin: auto;
         display: grid;
@@ -400,7 +400,7 @@ ul {
     line-height: 0px;
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 900px) {
     .name {}
 }
 
@@ -411,7 +411,7 @@ ul {
     cursor: pointer;
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 900px) {
     .photo_container {
         width: 130px;
         height: 130px;
@@ -441,7 +441,7 @@ ul {
     opacity: 30%;
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 900px) {
     .photo {
         height: 130px;
         width: 130px;
@@ -489,7 +489,7 @@ ul {
     font-size: 18px
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 900px) {
     .box_container {
         width: 92%;
         margin: auto;
@@ -545,7 +545,7 @@ ul {
     display: grid;
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 900px) {
     .box2 {
         width: 92%;
         display: inline;
@@ -569,7 +569,7 @@ ul {
     background-color: white;
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 900px) {
     .nutshell {
         background-position: center;
         background-position-x: 550px;
@@ -586,7 +586,7 @@ ul {
     padding-top: 80px;
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 900px) {
     .headingnut {
         text-align: center;
         padding-top: 50px;
@@ -600,7 +600,7 @@ ul {
     padding-top: 100px;
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 900px) {
     .columnnut {
         text-align: left;
         padding-left: 10px;
@@ -640,7 +640,7 @@ em {
     padding-left: 5%;
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 900px) {
     .iframe {
         min-height: 170px;
 
@@ -654,7 +654,7 @@ em {
     height: 0;
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 900px) {
     .iframe_container {
         width: 304px;
         margin-left: -15px;
@@ -717,7 +717,7 @@ input {
     min-width: 400px;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 900px) {
     .input[type=submit] {
         width: 100%;
         margin-top: 0;
@@ -725,7 +725,7 @@ input {
 
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 900px) {
     .contactform {
         min-width: 250px;
         margin: auto;
@@ -760,7 +760,7 @@ input#pick1 {
     margin: 0;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 900px) {
     .footer {
         min-height: 530px;
     }
@@ -780,7 +780,7 @@ input#pick1 {
 
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 900px) {
     .background {
         width: 100%;
         background-size: cover;
@@ -800,7 +800,7 @@ input#pick1 {
     line-height: 0;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 900px) {
     .contacthead {
         font-size: 40px;
         top: 50px;
@@ -818,7 +818,7 @@ input#pick1 {
     grid-template-columns: 55% auto;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 900px) {
     .info_container {
         width: 300px;
         grid-template-columns: none;
@@ -838,7 +838,7 @@ input#pick1 {
     margin-left: 9px;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 900px) {
     .infotext {
         width: 50%;
         margin-left: 50px;
@@ -852,7 +852,7 @@ input#pick1 {
     margin-top: 0px;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 900px) {
     .infologo {
         width: 100%;
         left: 200px;
@@ -870,7 +870,7 @@ input#pick1 {
     margin-top: 25px;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 900px) {
     .logo_container_info {
         width: 200px;
         margin-top: -70px;
@@ -896,7 +896,7 @@ input#pick1 {
     display: grid;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 900px) {
     .logoblack_info {
         width: 50px;
         display: inline;
@@ -915,7 +915,7 @@ input#pick1 {
     padding-right: 180px;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 900px) {
     .textblack_info {
         width: 100px;
         display: inline;
@@ -941,7 +941,7 @@ input#pick1 {
     margin-top: -25px;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 900px) {
     .logotext_info {
         padding-left: 0px;
         width: 40%;
@@ -958,7 +958,7 @@ input#pick1 {
     font-size: 12px;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 900px) {
     .source {
         padding-left: 0px;
         width: 60%;
