@@ -23,6 +23,15 @@
     background-size: 100%;
 }
 
+@media only screen and (max-width: 320px) {
+    .header {
+        min-height: 300px;
+        background-size: 300%;
+        background-position-x: -310px;
+        background-position-y: 1150px;
+    }
+}
+
 .logo_container {
     width: 390px;
     margin: auto;
@@ -30,6 +39,14 @@
     grid-template-columns: 60% 40%;
     padding-top: 3%;
     padding-top: 15%;
+}
+
+@media only screen and (max-width: 320px) {
+    .logo_container {
+        width: 90%;
+        grid-template-columns: 50% 50%;
+        padding-top: 100px;
+    }
 }
 
 .logored {
@@ -41,12 +58,29 @@
     display: grid;
 }
 
+@media only screen and (max-width: 320px) {
+    .logored {
+        height: 60%;
+        width: 90%;
+        margin-left: 30px;
+    }
+}
+
 .logoblack {
     width: 200px;
     height: 90px;
     line-height: 0;
     margin: auto;
     display: grid;
+}
+
+@media only screen and (max-width: 320px) {
+    .logoblack {
+        max-width: 100px;
+        display: inline;
+        padding-top: 45px;
+        margin-right:  10px;
+    }
 }
 
 
@@ -59,6 +93,12 @@
     font-weight: bold;
     padding-right: 100px;
 }
+@media only screen and (max-width: 320px) {
+    .textblack {
+        font-size: 25px;
+
+    }
+}
 
 .textred {
     text-align: center;
@@ -68,12 +108,28 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
 }
+@media only screen and (max-width: 320px) {
+    .textred {
+        font-size: 25px;
+
+    }
+}
 
 .logotext {
     color: black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding-left: 48%;
     font-size: 16px;
+}
+
+@media only screen and (max-width: 320px) {
+    .logotext {
+        display: block;
+        padding-left: 140px;
+        font-size: 12px;
+        line-height: 0;
+
+    }
 }
 
 
@@ -112,6 +168,8 @@
     .navbar a {
         float: none;
         width: 100%;
+        border-top: 2px solid #bbb;
+        border-right: none;
     }
 }
 
@@ -445,18 +503,21 @@ em {
     min-height: 625px;
     padding-left: 5%;
 }
+
 @media only screen and (max-width: 320px) {
     .iframe {
         min-height: 170px;
 
     }
 }
+
 .iframe_container {
     position: relative;
     width: 95%;
     padding-bottom: 56.25%;
     height: 0;
 }
+
 @media only screen and (max-width: 320px) {
     .iframe_container {
         width: 304px;
