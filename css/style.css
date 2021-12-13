@@ -316,9 +316,9 @@ ul {
         display: grid;
         grid-template-columns: auto auto;
         gap: 20px;
-        
 
-        
+
+
 
 
     }
@@ -479,6 +479,17 @@ ul {
     background-position: center;
     background-size: cover;
     min-height: 850px;
+    background-color: white;
+}
+
+@media only screen and (max-width: 320px) {
+    .nutshell {
+        background-position: center;
+        background-position-x: 550px;
+        background-position-y: 0px;
+        min-height: 750px;
+
+    }
 }
 
 .headingnut {
@@ -488,11 +499,26 @@ ul {
     padding-top: 80px;
 }
 
+@media only screen and (max-width: 320px) {
+    .headingnut {
+        text-align: center;
+        padding-top: 50px;
+    }
+}
+
 .columnnut {
     width: 540px;
     height: 260px;
     padding-left: 220px;
     padding-top: 100px;
+}
+
+@media only screen and (max-width: 320px) {
+    .columnnut {
+        text-align: left;
+        padding-left: 10px;
+        max-width: 250px;
+    }
 }
 
 .textnut {
