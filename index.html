@@ -6,7 +6,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Loppuharkka</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./css/style.css">
+    <script>function myFunction() {
+            var x = document.getElementById("myLinks");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+        }</script>
+
+
 </head>
 
 <body>
@@ -31,17 +42,21 @@
                     <p>Also a little bit CSS</p>
                 </div>
 
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+
             </div>
 
 
 
 
-            <div class="navbar">
-                <a href="#">Home</a>
-                <a href="#toka">Design Thinking?</a>
-                <a href="#nutshell">DT in nutshell</a>
-                <a href="#about">About us</a>
-                <a class="contactlink" href="#contact">Contact</a>
+            <div class="topnav" id="myLinks">
+                <a href="#" onclick="myFunction()">Home</a>
+                <a href="#toka" onclick="myFunction()">Design Thinking?</a>
+                <a href="#nutshell" onclick="myFunction()">DT in nutshell</a>
+                <a href="#about" onclick="myFunction()">About us</a>
+                <a class="contactlink" onclick="myFunction()" href="#contact">Contact</a>
             </div>
 
 

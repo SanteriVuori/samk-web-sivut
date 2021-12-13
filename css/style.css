@@ -135,12 +135,15 @@
 }
 
 
+
+
 /* header loppu */
 
 
 
 /*navigointipalkki alku*/
-.navbar {
+.topnav {
+    display: block;
     overflow: hidden;
     background-color: lightgray;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -149,7 +152,13 @@
     z-index: 100;
 }
 
-.navbar a {
+@media screen and (max-width: 320px) {
+    .topnav {
+        display: none;
+    }
+}
+
+.topnav a {
     float: left;
     display: block;
     color: black;
@@ -160,18 +169,37 @@
     border-right: 2px solid #bbb;
 }
 
-.navbar .contactlink {
+.topnav .contactlink {
     color: white;
     background-color: red;
     border-right: none;
 }
 
 @media screen and (max-width: 320px) {
-    .navbar a {
+    .topnav a {
         float: none;
         width: 100%;
         border-top: 2px solid #bbb;
         border-right: none;
+    }
+}
+
+.header a.icon {
+    visibility: hidden;
+}
+
+@media screen and (max-width: 320px) {
+    .header a.icon {
+        visibility: visible;
+        display: block;
+        /* position: absolute; */
+        left: 15px;
+        top: 5px;
+        font-size: 50px;
+        color: black;
+        width: 50px;
+        height: 50px;
+        position: absolute;
     }
 }
 
@@ -212,7 +240,6 @@
 
 @media screen and (max-width: 320px) {
     .column1 {
-        /* position: relative; */
         top: 150px;
         max-width: 300px;
         left: 30px;
